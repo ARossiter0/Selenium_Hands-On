@@ -6,8 +6,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "src/test/java/features",
-        glue = "stepDefinitions",
-        tags = "@StockInfo"
+        glue = "stepDefinitions"
 )
 public class TestNGRunner extends AbstractTestNGCucumberTests {
 
