@@ -19,7 +19,7 @@ public class TestBase {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             driver.get("https://www.moneycontrol.com/");
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-            driver.findElement(By.linkText("moneycontrol.com")).click();
+            //driver.findElement(By.linkText("moneycontrol.com")).click();
         }
         return driver;
     }
