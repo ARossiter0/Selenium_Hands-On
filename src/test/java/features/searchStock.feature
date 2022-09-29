@@ -9,3 +9,6 @@ Feature: Search for company stock information
     Examples:
     | name      |
     | Starbucks |
+    | IBM       |
+    | Apple     |
+    | NetFlix   |
